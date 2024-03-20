@@ -1,0 +1,160 @@
+.news-redux-container{
+    color:white;
+    .news-redux-body{
+        .container{
+            .row{
+                .container-news-markdown{
+                    background: rgba(0, 0, 0, 0.6);
+                    padding: 30px;
+                    border-radius: 20px;
+                    height: max-content;
+                }
+            }
+        }
+    }
+    .form-input-news{
+       .container{
+        .news-container-all{
+            display: flex;
+        .contents-news{
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 20px;
+            height: max-content;
+            // display: flex;
+            // gap:20px;
+           .input-news{
+            .form-group{
+                .form-control-news{
+                    height: 100px;
+                    border-radius: 10px;
+                    width: 100%;
+                }
+                .select-filmId{
+                    color: black;
+                    font-weight: 600;
+                }
+            }
+           }
+           .image-news{
+            .form-group{
+                position: relative;
+                        margin-bottom: 18px;
+                .form-label{
+                    display: block;
+                    margin-left: 20px;
+                    margin-bottom: 5px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    line-height: 24px;
+                    height: 15px;
+                    font-size: 12px;
+                    color: #fff;
+
+                }
+                .preview-img-container {
+                    display: flex;
+                    gap: 10px;
+                    cursor: pointer;
+
+                    .label-upload {
+                        background: #560e6f;
+                        border-radius: 40px;
+                        width: 110px;
+                        text-align: center;
+                        padding-top: 12px;
+                        border: 1px solid black;
+                        gap:10px;
+                        &:hover {
+                            opacity: 0.9;
+                        }
+                    }
+
+                    .preview-img {
+                        height: 50px;
+                        width: 200px;
+                        padding-left: 10px;
+                        border: 1px solid white;
+                        border-radius: 10px;
+                        background: center center no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+           }
+           .btn-news{
+            display: flex;
+            align-items:end;
+            .form-btn {
+                margin-top: 27px;
+                width: 100%;
+                // float: right;
+
+
+                .btn-save {
+                    color: #fff;
+                    background-color: #f23e3e;
+                    font-weight: 400;
+                    height: 50px;
+                    font-size: 14px;
+                    border: none;
+                    width: 100%;
+                    border-radius: 40px;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    text-align: center;
+
+                    &:hover {
+                        opacity: 0.9;
+                    }
+
+                    .title-save {
+                        padding: 13px;
+                    }
+                }
+
+            }
+            .btn-edit {
+                color: #fff;
+                background-color: green;
+                font-weight: 400;
+                height: 50px;
+                font-size: 14px;
+                border: none;
+                width: 100%;
+                border-radius: 40px;
+                text-transform: uppercase;
+                cursor: pointer;
+                text-align: center;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+
+                .title-save {
+                    padding: 13px;
+                }
+            }
+           }
+       }
+       .list-news{
+           .container-list{
+            padding: 20px;
+            border-radius: 10px;
+            height: max-content;
+            .btn-film{
+                background: #560e6f;
+                border: 1px solid black;
+                outline: none;
+                border-radius: 10px;
+               
+                &:hover{
+                    opacity: 0.7;
+                    transition: all 0.5s;
+                }
+            }
+           }
+       }
+    }
+}
+}}

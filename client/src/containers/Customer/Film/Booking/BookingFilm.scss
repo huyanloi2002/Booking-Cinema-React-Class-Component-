@@ -1,0 +1,240 @@
+.container-film{
+    padding-top:10px;
+    .content-booking-films{
+        .MuiStepper-horizontal {
+            align-items: center;
+            flex-direction: row;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+            margin-bottom: 20px !important;
+        }
+        // .lace-up{
+        //     background-image: url('../../../assets/lace-up.png');
+        //     height: 20px;
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: repeat;
+        //     margin-top:20px;
+        // }
+        // .lace-down{
+        //     background-image: url('../../../assets/lace-down.png');
+        //     height: 20px;
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: repeat;
+        // }
+        .btn-container{
+            margin-top:20px;
+            .total-infor{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: black;
+            color:white;
+            border-radius: 5px;
+            padding:0px 5px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            i{
+                font-size: 10px;
+            }
+            .btn-prev{
+                // width: 10%;
+                background-color: red;
+                font-size: 12px;   
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px;
+                border-radius: 10px;
+            }
+            .btn-next{
+                // width: 10%;
+                background-color: green;
+                font-size: 12px;   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            .content-booking-film{
+                width: 80%;
+                // margin: 0 4px;
+                font-size: 13px;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .left-infor-film{
+                    display: flex;  
+                    .image-film{
+                        width: 70px;
+                        height: 100px;
+                        margin: 5px;
+
+                    }
+                    .right{
+                        margin: 5px;
+                    }
+                }
+                .middle-time-seat{
+                    // display: flex;
+                    .title-name-booking{
+                        margin: 3px 15px;
+                        // min-width: 140px;
+                    }
+                    .infor-booking{
+                        margin: 3px 10px; 
+                        display: flex;
+                        align-items: flex-end;               
+                    }
+                    .cinema{
+                        display: flex;
+                       
+                    }
+                    .day{
+                        display: flex;
+                    }
+                    .cinemaTech{
+                        display: flex;
+                    }
+                    .seat{
+                        display: flex;
+                        .infor-booking-detail-seat{
+                            margin: 1px !important; 
+                        }
+                    }
+                }
+                .right-price{
+                    .title-name-booking{
+                        margin: 3px 15px;
+                        // min-width: 100px;
+                    }
+                    .infor-booking{
+                        margin: 3px 15px;                
+                    }
+                    .price-ticket{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .combo-drink-food{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .promotion{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .total-price{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                   
+                }
+            }
+            }
+            
+          
+        }
+        .container-booking{
+            padding: 10px 10px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+    }
+   
+}
+
+
+@media only screen and (max-width: 1008px){
+    
+    .content-booking-film{ 
+        // display: block!important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        // width: 100%;
+        flex-direction: column !important;   
+        justify-content: flex-start !important;
+        align-items: flex-start !important;     
+        .left-infor-film{
+            display: flex;
+
+            border:1px solid black;
+            // margin:0 1px !important;
+        }
+       
+    }
+    .btn-prev{
+        padding: 20px !important;
+        border-radius: 10px;
+    }
+    .btn-next{
+        padding: 20px !important;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+   
+}
+@media only screen and (max-width: 280px){
+    .content-booking-film{ 
+        display: flex!important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        flex-direction: column !important;
+        .left-infor-film{
+            display: flex;
+            border:1px solid black;
+            // margin:0 1px !important;
+        }
+        .middle-time-seat{
+            border:1px solid black;
+            .cinema{
+                display:flex !important;
+                flex-direction: column !important;
+            }
+            .day{
+                display:flex !important;
+                flex-direction: column !important;            
+            }
+            .cinemaTech{
+                display:flex !important;
+                flex-direction: column !important;           
+             }
+            .seat{
+                display:flex !important;
+                flex-direction: column !important;
+            }
+        }
+        .right-price{
+            border:1px solid black;
+            .price-ticket{
+                display:flex !important;
+                flex-direction: column !important;           
+             }
+            .combo-drink-food{
+                display:flex !important;
+                flex-direction: column !important;          
+            }
+            .promotion{
+                display:flex !important;
+                flex-direction: column !important;           
+             }
+            .total-price{
+                display:flex !important;
+                flex-direction: column !important;           
+             }
+           
+        }
+    }
+    .btn-prev{
+        padding: 20px !important;
+        border-radius: 10px;
+    }
+    .btn-next{
+        padding: 20px !important;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+   
+}

@@ -1,0 +1,217 @@
+{
+    "home-header": {
+        "genre": "Thể loại",
+        "find-movies-by-genre": "Tìm phim theo thể loại",
+        "cinema": "Rạp phim",
+        "choose-cinemas-across-the-country": "Chọn rạp phim",
+        "film": "Phim",
+        "choose-the-movie-as-you-want": "Chọn phim theo mong muốn",
+        "promotion": "Khuyến mãi",
+        "for-couples-or-vouchers": "Dành cho các cặp đôi hoặc voucher",
+        "support": "Hổ trợ",
+        "welcome": "Xin chào, "
+    },
+    "banner": {
+        "booking-cine-film": "ĐẶT VÉ CINE-FLIM",
+        "the-hottest-movies-right-now": "NHỮNG BỘ PHIM HOT NHẤT HIỆN NAY",
+        "now-showing": "Phim đang chiếu",
+        "coming-soon": "Phim sắp chiếu"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý user redux",
+                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "manage": "Quản lý",
+            "staff-manage": "Quản lý nhân viên",
+            "customer-manage": "Quản lý khách hàng",
+            "admin-manage": "Quản trị viên (VIP)",
+            "cinema": "Rạp phim",
+            "province-manage": "Quản lý tỉnh thành",
+            "cinema-manage": "Quản lý rạp phim",
+            "cinema-tech-manage": "Quản lý công nghệ chiếu",
+            "genre": "Thể loại",
+            "genre-manage": "Quản lý thể loại",
+            "film": "Phim",
+            "film-manage": "Quản lý phim",
+            "buy-combos": "Quản lý đồ ăn đồ uống",
+            "payment-type": "Quản lý hình thức thanh toán",
+            "information": "Thông tin",
+            "information-manage": "Quản lý thông tin",
+            "post-film": "Bài viết của phim",
+            "post-now-showing-manage": "Quản lý phim đang chiếu",
+            "banner": "Banner",
+            "banner-manage": "Quản lý Banner",
+            "bill": "Hóa đơn",
+            "bill-manage": "Quản lý hóa đơn",
+            "news": "Tin tức",
+            "news-manage": "Quản lý tin tức"
+        },
+        "staff": {
+            "manage": "Quản lý",
+            "booking-manage-plan": "Quản lý kế hoạch đặt vé"
+        },
+        "manageMyUser": {
+            "my-user": "Quản lý tài khoản",
+            "edit-my-user": "Chỉnh sửa tài khoản"
+        }
+    },
+    "user-manage": {
+        "add-user": "Thêm mới người dùng",
+        "edit-user": "Chỉnh sửa người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "lastname": "Họ",
+        "firstname": "Tên",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "role": "Chức vụ",
+        "phonenumber": "Số điện thoại",
+        "avatar": "Ảnh đại diện",
+        "save": "Lưu người dùng ",
+        "edit": "Lưu chỉnh sửa",
+        "uploadimage": "Tải ảnh"
+    },
+    "film-manage": {
+        "add-film": "Thêm mới phim",
+        "edit-film": "Chỉnh sửa phim",
+        "nameVi": "Tên phim VN",
+        "nameEn": "Tên phim EN",
+        "genre": "Thể loại: ",
+        "avatar": "Ảnh của phim",
+        "uploadimage": "Tải ảnh",
+        "save": "Lưu phim",
+        "edit": "Chỉnh sửa phim",
+        "show": "Trạng thái",
+        "direction": "Đạo diễn: ",
+        "actor": "Diễn viên: ",
+        "dayShow": "Khởi chiếu: ",
+        "duration": "Thời lượng: ",
+        "language": "Ngôn ngữ: "
+    },
+    "film": {
+        "outstanding-showing": "Phim nổi bật",
+        "see more": "Xem thêm"
+    },
+    "post-film": {
+        "create-infor-film": "Tạo thông tin",
+        "edit-infor-film": "Chỉnh sửa thông tin"
+    },
+    "infor-film": {
+        "infor": {
+            "summary": "Tóm tắt",
+            "title-content": "Nội dung phim"
+        },
+        "time": {
+            "booking-schedule": "Lịch đặt vé",
+            "no-schedule": "Phim không có lịch chiếu trong thời gian này, vui lòng chọn thời gian khác !"
+        }
+    },
+    "modal": {
+        "list-films": "Danh sách phim"
+    },
+    "manage-customer-booking": {
+        "title": "Quản lý kế hoạch đặt vé",
+        "choose-movie": "Chọn phim",
+        "choose-date": "Chọn ngày",
+        "save": "Lưu thông tin"
+    },
+    "booking": {
+        "title-price": "Giá :",
+        "choose-seat": "Chọn ghế",
+        "choose-corn-water": "Chọn bắp/ nước",
+        "payment": "Thanh toán",
+        "cinema": "Rạp:",
+        "time": "Suất chiếu:",
+        "room": "Phòng chiếu:",
+        "seat": "Ghế:",
+        "price": "Giá vé:",
+        "combo": "Combo:",
+        "promotion": "Khuyến mãi:",
+        "total": "Tổng:",
+        "CINE-DALAT": "CINE-DALAT",
+        "error1": "Quý khách vui lòng chọn: ",
+        "error2": ", để tiếp tục đặt vé.",
+        "thanks": "Xin chân thành cảm ơn quý khách!",
+        "NEXT": "NEXT",
+        "PREV": "PREV",
+        "PAYMENT": "PAYMENT"
+    },
+    "contact": {
+        "contact-us": "Liên hệ với chúng tôi",
+        "address": "ĐỊA CHỈ:",
+        "phone": "ĐIỆN THOẠI:",
+        "email": "EMAIL:",
+        "website": "WEBSITE:",
+        "addess-content": "Trường Đại Học Yersin Đà Lạt",
+        "phone-content": "0905711601",
+        "email-content": "huyanloi2002@gmail.com",
+        "website-content": "cine_dalat.com",
+        "get-in-touch": "Liên hệ",
+        "submit": "Xác nhận"
+    },
+    "footer": {
+        "BOOKING-CINE-DALAT": "BOOKING CINE-DALAT",
+        "Introduce": "Giới Thiệu",
+        "Online-Utilities": "Tiện Ích Online",
+        "Gift-Card": "Thẻ Quà Tặng",
+        "Recruit": "Tuyển Dụng",
+        "Ad-Contacts": "Liên Hệ Quảng Cáo",
+        "TERMS-OF-USE": "ĐIỀU KHOẢN SỬ DỤNG",
+        "General-Terms": "Điều Khoản Chung",
+        "Terms-of-Transactions": "Điều Khoản Giao Dịch",
+        "Payment-Policy": "Chính Sách Thanh Toán",
+        "Privacy-Policy": "Chính Sách Bảo Mật",
+        "FAQs": "Câu Hỏi Thường Gặp",
+        "LINK-TO-TELL-US": "KẾT NỐI VỚI CHÚNG TÔI",
+        "Ministry-of-Industry-and-Trade": "Bộ Công Thương",
+        "CUSTOMER CARE": "CHĂM SÓC KHÁCH HÀNG",
+        "Hotline": "Hotline: 0906711601",
+        "Working-hours": "Giờ làm việc: 8:00 - 22:00",
+        "Email": "Email: qHuyK17@bcm.com"
+    },
+    "outstanding": {
+        "title-outstanding": "PHIM NỔI BẬT",
+        "see-more-outstanding": "Xem thêm"
+    },
+    "news": {
+        "title-news": "TIN TỨC",
+        "see-more-news": "Xem thêm"
+    },
+    "bill": {
+        "cine-dalat": "CINE-DALAT",
+        "address-cine": "Đại học Yersin Đà Lạt",
+        "hottline-cine": "0905711601",
+        "invoiceId": "Hóa đơn số: ",
+        "orderDate": "Ngày đặt: ",
+        "emailUser": "Email: ",
+        "nameUser": "Họ và tên: ",
+        "address": "Địa chỉ: ",
+        "phoneNumber": "Số điện thoại: ",
+        "orderedDetail": "Chi Tiết Đã Đặt Hàng",
+        "description": "Miêu tả",
+        "product": "Sản phẩm",
+        "price": "Giá",
+        "quantity": "Số lượng",
+        "total": "Tổng tiền",
+        "subTotal": "Tổng phụ",
+        "promotion": "Khuyến mãi",
+        "grandTotal": "Tổng giá đăt vé",
+        "paid": "ĐÃ THANH TOÁN",
+        "paypal": "PAYPAL",
+        "paymentStatus": "Tình trạng thanh toán: ",
+        "paymentMode": "Phương thức thanh toán: ",
+        "exportBill": "Xuất hóa đơn",
+        "back": "Trở về",
+        "DA/NU": "Đồ ăn/Nước uống"
+    }
+}

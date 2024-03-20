@@ -1,0 +1,406 @@
+.coming-showing-container{
+    // background-color: #ab73bf;
+   
+    .coming-showing-content{
+       
+        .switch-pages{
+            height: 80px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            will-change: transform;
+            position: sticky;
+            position: -webkit-sticky;
+            top:56px;
+            background: white;
+            z-index: 1;
+            .switch-pages-content{
+                margin: 10px 60px;
+               .title-coming{
+                    height: 40px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    &:hover{
+                        span{
+                        color: yellow;
+                        }
+                    }
+                    span{
+                    padding: 10px;
+                    color: black;
+                    font-size: 30px;
+                    font-weight: 600;
+                    }
+               }
+            }
+        }
+        .list-movies-coming-showing{
+            margin: 10px 10px;
+            .list-movies-container{
+                display: flex;
+                .list-coming{
+                    width: 70%;
+                    .list-coming-content{
+                        display: flex;
+                        margin: 10px 10px;
+                        // height: 250px
+                        // border: 1px solid black;
+                        border-radius:10px ;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        padding: 20px 10px;
+                        .left{
+                            width: 25%;
+                            z-index: -2;
+                            border: 2px solid #560e6f;
+                            border-radius: 5px;
+                            .content-left{  
+                                .image-movies-coming{
+                                   height: 250px;                 
+                                }
+                            }
+                           
+                        }
+                        .right{
+                            width: 75%;
+                            margin: 0 20px;
+                            .content-right{
+                                height: 100%;
+                                .up{
+                                    // height:20%;
+                                    display: flex;
+                                    align-items: center;
+                                    span{
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                    }
+                                }
+                                .middle{
+                                    // height: 50%;
+                                   
+                                }
+                                .down{
+                                    // height: 30%;
+                                    display: flex;
+                                    // justify-content:flex-start;
+                                    align-items: center;
+                                    padding: 10px 20px;
+                                    .btn-booking{
+                                        height: 40px;
+                                        border: none;
+                                        outline: none;
+                                        cursor: pointer;
+                                        border-radius: 5px;
+                                        background: #fff04b;
+                                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                        &:hover{
+                                            transition: 0.3s;
+                                            background: black;
+                                            span{
+                                                color: white;
+                                            }
+                                        }
+                                        span{
+                                            padding: 10px;
+                                            color: black;
+                                            font-weight: 600;
+                                        }
+                                    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .list-now{
+                    width: 30%;
+                    .list-now-contents{
+                        margin: 10px;
+                        position: sticky;
+                        position: -webkit-sticky;
+                        top:150px;
+                        height:490px;
+                        // overflow-x:hidden;
+                        // overflow-y:scroll;
+                        border-radius:10px ;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        .title-now{
+                            // margin: 10px;
+                            position: sticky;
+                            position: -webkit-sticky;
+                            z-index:0;
+                            top:0;
+                            background: white;
+                            .title-content{
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                margin:0 20px;        
+                                // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                // border-radius: 5px;
+                                span{
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                                        
+                                }
+                                i{
+                                    &:hover{
+                                        color: yellow;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                            .list-now-content{
+                                display: flex;
+                                margin: 10px 10px;
+                                padding: 10px 10px;
+                                z-index:-9999;
+                                border-radius:5px;
+                                .left{
+                                    width: 40%;
+                                    // z-index:-2;
+                                    .content-left{
+                                        .image-movies-now{
+                                            height: 150px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            border:2px solid #560e6f;
+                                        }
+                                    }
+                                    
+                                }
+                                .right{
+                                    width: 60%;
+                                    // z-index:-2;
+                                    padding: 0 5px;
+                                    .content-right{
+                                        height: 100%;
+                                        .up{
+                                            // height:20%;
+                                            display: flex;
+                                            align-items: center;
+                                            span{
+                                                font-size: 9px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .middle{
+                                            // height: 50%;
+                                            ul{
+                                                margin: 0;
+                                                padding: 2px 5px;
+                                                li{
+                                                    line-height: 1;
+                                                    list-style: none;
+                                                    span{
+                                                        font-size: 10px;
+                                                        
+                                                    }
+                                                }
+                                            }
+                                           
+                                        }
+                                        .down{
+                                            // height: 30%;
+                                            display: flex;
+                                            // justify-content:flex-start;
+                                            align-items: center;
+                                            padding: 5px 5px;
+                                            .btn-booking{
+                                                height: 20px;
+                                                border: none;
+                                                outline: none;
+                                                cursor: pointer;
+                                                border-radius: 5px;
+                                                background: #fff04b;
+                                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                                &:hover{
+                                                    transition: 0.3s;
+                                                    background: black;
+                                                    span{
+                                                        color: white;
+                                                    }
+                                                }
+                                                span{
+                                                    padding: 5px;
+                                                    color: black;
+                                                    font-weight: 600;
+                                                    font-size: 10px;
+                                                }
+                                            
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .last-background{
+                            background: white;
+                            position: sticky;
+                            position: -webkit-sticky;
+                            z-index:0;
+                            bottom: 0;
+                            align-self: flex-end;
+                            height: 30px;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                        }
+                      
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991px){   
+        .coming-showing-container{
+            .coming-showing-content{
+               
+                .list-movies-coming-showing{
+                    .list-movies-container{
+                        display: flex;
+                        flex-direction: column !important;
+                        .list-coming{
+                            width:100% !important;
+                            .list-coming-content{
+                                .left{
+                                    width: 45% !important;
+                                    .content-left{  
+                                        .image-movies-coming{
+                                            height: 250px !important;                         
+                                        }
+                                    }
+                                   
+                                }
+                                .right{
+                                    width: 55% !important;
+                                    margin: 0 5px;
+                                    .content-right{
+                                        height: 100%;
+                                        .up{
+                                            span{
+                                                font-size: 13px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .middle{
+                                            ul{
+                                                li{
+                                                    line-height: 1;
+                                                    span{
+                                                        font-size: 12px;
+                                                       
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .down{
+                                            padding: 0px 10px;
+                                        }
+                                    }
+                                }
+                            }
+                           
+                        }
+                        .list-now{
+                            width:100% !important;
+                            .list-now-contents{
+                                .list-now-content{
+                                    .left{
+                                        
+                                        .content-left{
+                                            .image-movies-now{
+                                                height: 170px !important;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+    @media only screen and (max-width: 360px){  
+    
+        .now-showing-container{
+            .now-showing-content{
+                .switch-pages{
+                    .switch-pages-content{
+                        margin: 10px 30px !important;
+                       .title-coming{
+                            span{
+                            font-size: 25px !important;
+                            }
+                       }
+                    }
+                   
+                }
+                .list-movies-now-showing{
+                    .list-movies-container{
+                        display: flex;
+                        flex-direction: column !important;
+                        .list-now{
+                            width:100% !important;
+                            .list-now-content{
+                                .left{
+                                    width: 45% !important;
+                                    height: 200px;      
+                                    .content-left{  
+                                        .image-movies-now{
+                                            height: 196px !important;                        
+                                        }
+                                    }
+                                   
+                                }
+                                .right{
+                                    width: 55% !important;
+                                    margin: 0 15px;
+                                    .content-right{
+                                        .middle{
+                                            ul{
+                                                li{
+                                                    line-height: 1.1;
+                                                    span{
+                                                        font-size: 12px;
+                                                       
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                           
+                        }
+                        .list-coming{
+                            width:100% !important;
+                            .list-coming-contents{
+                                .list-coming-content{
+                                    .left{
+                                        .content-left{
+                                            .image-movies-coming{
+                                                height: 160px !important;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+           
+        }
+     }

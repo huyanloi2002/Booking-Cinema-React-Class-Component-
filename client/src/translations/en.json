@@ -1,0 +1,218 @@
+{
+    "home-header": {
+        "genre": "Genre",
+        "find-movies-by-genre": "Find movies by genre",
+        "cinema": "Cinema",
+        "choose-cinemas-across-the-country": "Choose cinemas",
+        "film": "Movies",
+        "choose-the-movie-as-you-want": "Choose the movies as you want",
+        "promotion": "Promotion",
+        "for-couples-or-vouchers": "For couples or vouchers",
+        "support": "Support",
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "booking-cine-film": "BOOKING CINE-FLIM",
+        "the-hottest-movies-right-now": "THE HOTTEST MOVIES RIGHT NOW",
+        "now-showing": "Now showing",
+        "coming-soon": "Coming soon"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Manage user using redux",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin": {
+            "manage": "Manages",
+            "staff-manage": "Staffs Manage",
+            "customer-manage": "Customer Manage",
+            "admin-manage": "Admin (VIP)",
+            "cinema": "Cinemas",
+            "province-manage": "Provinces Manage",
+            "cinema-manage": "Cinemas Manage",
+            "cinema-tech-manage": "Cinema Technology Manage",
+            "genre": "Genres",
+            "genre-manage": "Genres Manage",
+            "film": "Films",
+            "film-manage": "Films Manage",
+            "buy-combos": "Foods, drinks Manage",
+            "payment-type": "Payment Type Manage",
+            "information": "Informations",
+            "information-manage": "Informations Manage",
+            "post-film": "Post of film",
+            "post-now-showing-manage": "Post of now showing film",
+            "banner": "Banner",
+            "banner-manage": "Banner Manage",
+            "news": "News",
+            "news-manage": "News Manage",
+            "bill": "Bill",
+            "bill-manage": "Bill Manage"
+        },
+        "staff": {
+            "manage": "Manages",
+            "booking-manage-plan": "Booking Manage Plan"
+        },
+        "manageMyUser": {
+            "my-user": "Manage User",
+            "edit-my-user": "Edit My User"
+        }
+    },
+    "user-manage": {
+        "add-user": "Add a new user",
+        "edit-user": "Edit the user",
+        "email": "Email",
+        "password": "Password",
+        "lastname": "Last name",
+        "firstname": "First name",
+        "address": "Address",
+        "gender": "Gender",
+        "role": "Role",
+        "phonenumber": "Phone Number",
+        "avatar": "Avatar",
+        "save": "Save user",
+        "edit": "Edit user",
+        "uploadimage": "Upload"
+    },
+    "film-manage": {
+        "add-film": "Add a new film",
+        "edit-film": "Edit the film",
+        "nameVi": "Name VN",
+        "nameEn": "Name EN",
+        "genre": "Genre: ",
+        "avatar": "Film's avatar",
+        "uploadimage": "Upload",
+        "save": "Save film",
+        "edit": "Edit film",
+        "show": "Status",
+        "direction": "Direction: ",
+        "actor": "Actor: ",
+        "dayShow": "Release date: ",
+        "duration": "Duration: ",
+        "language": "Language: "
+    },
+    "film": {
+        "outstanding-showing": "Out Standing Movies",
+        "see more": "See more"
+    },
+    "post-film": {
+        "create-infor-film": "Create Infor",
+        "edit-infor-film": "Edit Infor"
+    },
+    "infor-film": {
+        "infor": {
+            "summary": "Summary",
+            "title-content": "Movie Details"
+        },
+        "time": {
+            "booking-schedule": "Booking schedule",
+            "no-schedule": "The film is no schedule during this time, please choose a different time!"
+        }
+    },
+    "modal": {
+        "list-films": "List Movies"
+    },
+    "manage-customer-booking": {
+        "title": "Booking Manage Plan",
+        "choose-movie": "Choose Movie",
+        "choose-date": "Choose Date",
+        "save": "Save Infor"
+    },
+    "booking": {
+        "title-price": "Price :",
+        "choose-seat": "Choose Seat",
+        "choose-corn-water": "Choose corn/water",
+        "payment": "Payment",
+        "cinema": "Cinema:",
+        "time": "Time:",
+        "room": "Room:",
+        "seat": "Seat:",
+        "price": "Price:",
+        "combo": "Combo:",
+        "promotion": "Promotion:",
+        "total": "Total:",
+        "CINE-DALAT": "CINE-DALAT",
+        "error1": "Please choose: ",
+        "error2": ", to continue booking tickets.",
+        "thanks": "Thank you very much!",
+        "confirm": "Confirm",
+        "NEXT": "NEXT",
+        "PREV": "PREV",
+        "PAYMENT": "PAYMENT"
+    },
+    "contact": {
+        "contact-us": "Contact Us",
+        "address": "ADDRESS:",
+        "phone": "PHONE:",
+        "email": "EMAIL:",
+        "website": "WEBSITE:",
+        "addess-content": "Yersin Da Lat University",
+        "phone-content": "0905711601",
+        "email-content": "huyanloi2002@gmail.com",
+        "website-content": "cine_dalat.com",
+        "get-in-touch": "Get in touch",
+        "submit": "Submit"
+    },
+    "footer": {
+        "BOOKING-CINE-DALAT": "BOOKING CINE-DALAT",
+        "Introduce": "Introduce",
+        "Online-Utilities": "Online Utilities",
+        "Gift-Card": "Gift Card",
+        "Recruit": "Recruit",
+        "Ad-Contacts": "Ad Contacts",
+        "TERMS-OF-USE": "TERMS OF USE",
+        "General-Terms": "General Terms",
+        "Terms-of-Transactions": "Terms of Transactions",
+        "Payment-Policy": "Payment Policy",
+        "Privacy-Policy": "Privacy Policy",
+        "FAQs": "FAQs",
+        "LINK-TO-TELL-US": "LINK TO TELL US",
+        "Ministry-of-Industry-and-Trade": "Ministry of Industry and Trade",
+        "CUSTOMER CARE": "CUSTOMER CARE",
+        "Hotline": "Hotline: 0906711601",
+        "Working-hours": "Working hours: 8:00 - 22:00",
+        "Email": "Email: qHuyK17@bcm.com"
+    },
+    "outstanding": {
+        "title-outstanding": "OUTSTANDING",
+        "see-more-outstanding": "See more"
+    },
+    "news": {
+        "title-news": "NEWS",
+        "see-more-news": "See more"
+    },
+    "bill": {
+        "cine-dalat": "CINE-DALAT",
+        "address-cine": "Yersin Da Lat University",
+        "hottline-cine": "0905711601",
+        "invoiceId": "Invoice No: ",
+        "orderDate": "Order Date: ",
+        "emailUser": "Email: ",
+        "nameUser": "Full Name: ",
+        "address": "Address: ",
+        "phoneNumber": "Phone Number: ",
+        "orderedDetail": "Ordered Detail",
+        "description": "Description",
+        "product": "Product",
+        "price": "Price",
+        "quantity": "Quantity",
+        "total": "Total",
+        "subTotal": "Sub Total",
+        "promotion": "Promotion",
+        "grandTotal": "Grand Total",
+        "paymentStatus": "Payment Status: Paid",
+        "paymentMode": "Payment Mode: Paypal",
+        "paid": "PAID",
+        "paypal": "PAYPAL",
+        "exportBill": "Export Bill",
+        "back": "Back",
+        "DA/NU": "Food/Water"
+    }
+}

@@ -1,0 +1,30 @@
+.modal-error-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .icon-error{
+        margin:5px;
+        i{
+            font-size:30px;
+            color: red;
+        }
+    }
+    .content-error{  
+        background: rgb(233, 92, 92);
+        border-radius: 3px;    
+        padding:5px;
+        .title-error{
+            padding:5px;
+            text-align: center;
+            font-weight: 600;
+        }
+        .title-thanks{
+            border-top: 1px solid black;
+            margin:5px;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    
+}

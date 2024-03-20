@@ -1,0 +1,364 @@
+.my-manage-user-main{
+    display: flex;
+    .myuser-container{
+        width: 91%;
+    }
+}
+.user-container{
+    padding: 10px;
+    .user-content{
+        display: flex;
+        flex-direction: column;
+        .all-content-user{
+            margin: 5px;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            .up-content-user{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+                .avatar-user{
+                    .image-user{
+                        height: 100px;
+                        width: 100px;
+                        border:2px solid #560e6f;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                   
+                    }    
+                }
+                .name-user{
+                    .name{
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .name-user-content{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .name-user{
+                    span{
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                    .first-name{
+                      padding: 0 2px;   
+                    }
+                    .last-name{
+                        padding: 0 2px;
+                    }
+                }
+            }
+            .middle-content-user{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .btn-edit-user-content{
+                    margin: 10px;
+                    button{
+                        border: none;
+                        outline: none;
+                        padding: 5px 20px;
+                        border-radius: 5px;
+                        background: #560e6f;  
+                        span{
+                            color: white;
+                            font-weight: 600;
+                            padding: 0 5px;
+
+                        }
+                        i{
+                            padding: 0 5px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .down-contents-user{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                .down-content{
+                    width: 40%;
+                    border: 2px solid #560e6f;
+                    margin: 10px 0; 
+                    border-radius: 10px;
+                    .up{
+                       
+                        .information{
+                            display: flex;
+                            justify-content: center;
+                            width: 100%;  
+                           .right-input{
+                            margin: 0 20px;  
+                               .lastName{
+                                padding: 10px 0; 
+                               }
+                               .email{
+                                padding: 10px 0; 
+                               }
+                               .address{
+                                padding: 10px 0; 
+                               }
+                           }
+                           .left-input{
+                            margin: 0 20px; 
+                                .firstName{
+                                    padding: 10px 0; 
+                                }
+                                .phonenumber{
+                                    padding: 10px 0; 
+                                }
+                                .gender{
+                                    .title-input{
+                                       
+                                        font-weight: 600;
+                                        text-transform: uppercase;
+                                        margin: 10px 0;
+                                    }
+                                    select{
+                                        border-radius: 3px;
+                                        outline: none;
+                                        min-width: 100px;
+                                    }
+                                }     
+                            }
+                            input{
+                                border: none;
+                                outline: none;
+                                border-bottom: 1px solid black;
+                                width: 100%;    
+                            }
+                            .title-input{
+                                width: 100%;
+                                font-weight: 600;
+                                text-transform: uppercase;
+                                margin: 5px 0;
+                            }
+                           
+                           
+                        }
+                    }
+                   .down{
+                    .btn-content{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 10px;
+                        .btn-save-user{
+                           border: none;
+                           outline: none;
+                           padding: 5px 20px;
+                           border-radius: 5px;
+                           background: #560e6f;
+                           color: white;
+                           font-weight: 600;
+                        }
+                    }
+                   }
+                  
+                }
+            }
+          
+        }
+       
+        .history-content-user{
+            margin: 10px 5px;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;           
+            .history{
+                .title-history{
+                    padding: 5px 5px;
+                    span{
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+                .fresh-table{
+                    .table{
+                      
+                       tbody{
+                        tr{
+                            .description{
+                               
+                                .booking-infor{
+                                    display: flex;
+                                    .content-book{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                        gap:10px;
+                                        div{
+                                            display: flex;
+                                          .title-book{
+                                            text-align: left;
+                                            font-weight: 600;
+                                            width: 170px;
+                                          }
+
+                                        }
+                                    }
+                                }
+                                .combo-infor{
+                                    .combo-content{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                       .title-combo{
+                                            display: flex;
+                                            flex-direction: row;
+                                            gap:50px;
+                                            span{
+                                                font-weight: 600;
+                                            }
+                                       }
+                                       .combo-total{
+                                            display: flex;
+                                            flex-direction: column;
+                                                div{
+                                                  .combo{
+                                                    margin-right:40px;
+                                                  }
+                                                  .cout{
+                                                    margin-right:60px;
+                                                  }
+                                                }
+                                       }
+                                    }
+                                }
+                            }
+                            .status-content{
+                                .payment{
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                       }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px){  
+    .my-manage-user-main{
+        display: flex;
+        flex-direction: column !important;
+        .myuser-container{
+            width: 100%;
+            margin: 5px;
+        }
+    }
+    .user-container{
+        padding: 10px;
+        .user-content{
+            .all-content-user{
+                .up-content-user{    
+                    .avatar-user{
+                        .image-user{
+                       
+                        }    
+                    }
+                    .name-user{
+                        .name{
+                          
+                        }
+                    }
+                }
+                .down-contents-user{
+                    .down-content{
+                        width: 100%;
+                        .up{  
+                            .information{
+                                display: flex;
+                                flex-direction: column;     
+                            }
+                        }
+                    }
+                }
+            }
+            .history-content-user{
+                        
+                .history{
+                   
+                    .fresh-table{
+                        .table{
+                          
+                           tbody{
+                            tr{
+                                .description{
+
+                                    .booking-infor{
+                                        display: flex;
+                                        .content-book{
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            gap:0px;
+                                            div{
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 50%;
+                                              .title-book{
+                                                text-align: center;
+                                                font-weight: 600;
+                                                width: 100%;
+                                              }
+    
+                                            }
+                                        }
+                                    }
+                                    .combo-infor{
+                                        .combo-content{
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: stretch !important;
+                                           .title-combo{
+                                                display: flex;
+                                                flex-direction: column;
+                                                gap:0px;
+                                                div{
+                                                    width: 50%;
+                                                }
+                                                span{
+                                                    font-weight: 600;
+
+                                                }
+                                           }
+                                           .combo-total{
+                                                display: flex;
+                                                flex-direction: column;
+                                                    div{
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        .combo{
+                                                            margin-right:0px;
+                                                          }
+                                                          .cout{
+                                                            margin-right:0px;
+                                                          }
+                                                    }
+                                           }
+                                        }
+                                    }
+                                }
+                                
+                            }
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }

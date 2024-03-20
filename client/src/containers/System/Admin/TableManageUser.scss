@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.container {
+    .row {
+        .booking-form {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+
+
+            .fresh-table {
+                background-color: orange;
+                border-radius: 10px;
+                text-align: center;
+
+                .table {
+                    thead {
+                        padding: 50px;
+                    }
+
+                    tbody {
+                        background-color: #ddd;
+
+                        tr {
+
+                            .btn-action {
+
+                                background-color: yellowgreen;
+
+                                button {
+                                    border: none;
+                                    outline: none;
+                                    background: transparent;
+
+                                }
+
+                                .btn-edit {
+                                    color: green;
+                                }
+
+                                .btn-delete {
+                                    color: red;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,262 @@
+.booking-pay-container{
+    .booking-pay-content{
+        .booking-pay{
+            height: 100%;
+            display: flex;
+            width: 100%;
+            .payment-content{
+                margin:5px 0;
+                height: 100%;
+                padding: 10px 0;
+                .promotion{
+                    margin:5px;
+                    height: 100%; 
+                    .promotion-main{
+                        padding: 5px;
+                        background: #8e50a3;
+                        border-radius: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                        .title-promotion{
+                            height: 20%;
+                            background: black;
+                            color:white;                             
+                            display: flex;
+                            align-items: center;
+                            gap:5px;
+                            border-radius: 3px;
+                            label{
+                                font-style: italic;
+                                margin: 5px;
+                            }
+                            span{
+                                font-weight: 600;
+                            }
+                        }
+                        .content-promotion{
+                            height: 80%;
+                            margin: 0 0 20px 0;
+                            .title-code-promotion{
+                                height: 30%;
+                                margin: 5px;
+                                background: #fff04b;
+                                color: black;
+                                padding: 5px;
+                                border-radius: 3px;
+                                cursor: pointer;
+                                &:hover{
+                                    background: orange;
+                                    transition: all 0.7s;
+                                }
+                            }
+                            .input-code-promotion{
+                                height: 50%;
+                                margin: 5px;
+                                display: flex;
+                                justify-content: center;
+                                gap:5px;
+                                .left{
+                                    display: flex;
+                                    flex-direction: column;
+                                    .input-promotion{
+                                        outline: none;
+                                        border: 1px solid black;
+                                    }
+                                    label{
+                                        font-weight: 600;
+                                    }                             
+                                }
+                                .right{
+                                    display: flex;
+                                    align-items: flex-end;
+                                    .btn-promotion{
+                                        outline: none;
+                                        border: 1px solid white;
+                                        background:#f85a5a;
+                                        font-size: 12px;
+                                        font-weight: 600;
+                                        color: white;
+                                        border-radius: 3px;
+                                        padding:2px;
+                                        cursor: pointer;
+                                       
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                    
+                }
+                .payment{
+                    margin:5px;
+                    height: 100%;
+                    .payment-main{
+                      
+                        border-radius: 5px;
+                        padding: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                        .title-payment{           
+                            height: 30%;
+                            display: flex;
+                            align-items: center;
+                            gap:5px;
+                            background: black;
+                            color:white;
+                            border-radius: 3px;
+                            label{
+                                font-style: italic;
+                                margin: 5px;
+                            }
+                            span{
+                                font-weight: 600;
+                            }
+                        }
+                        .content-payment{
+                          
+                        }
+                    }
+                }
+            }
+            .total-content{
+                margin:5px 0;
+                .total-ticket-food{
+                    padding: 5px;
+                    .total-ticket-food-main{
+                        background: #8e50a3;
+                        border-radius: 5px;
+                        padding: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        .up-ttf{
+                            background: black;
+                            color:white;
+                            text-align: center;
+                            font-weight: 600;
+                            margin: 3px;
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        }
+                        .midle-ttf{
+                            background: white;
+                            display: flex;
+                            margin: 3px;    
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+                            .left{
+                               width: 20%;
+                               margin: 0 5px;
+                               font-weight: 600;
+                            }
+                            .middle{
+                                // width: 50%;
+                                // // margin: 0 5px;
+                             }
+                            .right{
+                                font-weight: 600;
+                                width: 80%;
+                                display: flex;
+                                justify-content: end;  
+                                margin: 0 5px;         
+                            }
+                        }
+                        .down-ttf{
+                            background: white;
+                            border-radius:5px !important;
+                            display: flex;
+                            margin: 3px;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                            .left{
+                                width: 20%;
+                                margin: 0 5px;
+                                font-weight: 600;
+                             }
+                             .middle{
+                                // width: 25%;
+                                // // // margin: 0 5px;
+                             }
+                             .right{
+                                 width: 80%;   
+                                 display: flex;
+                                justify-content: end;
+                                margin: 0 5px;  
+                                font-weight: 600;        
+                             }
+                        }
+                        .final-ttf{
+                            margin: 3px;
+                            font-weight: 600;
+                            text-align: center;
+                            background: #fff04b;
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        }
+                    }
+                }
+                .total-promotion{
+                    padding: 5px;
+                    .total-promotion-main{
+                        background: #8e50a3;
+                        border-radius: 5px;
+                        padding: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        .up-tp{
+                            background: black;
+                            color:white;
+                            text-align: center;
+                            font-weight: 600;
+                            margin: 3px;
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        }
+                        .down-tp{
+                            background:  #fff04b;
+                            text-align: center;
+                            font-weight: 600;
+                            margin: 3px;
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        }
+                    }
+                }
+                .total-all{
+                    // margin: 5px 0;
+                    padding: 5px;
+                    .total-all-main{
+                        background: #8e50a3;
+                        border-radius: 5px;
+                        padding: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        .up-ta{
+                            background: black;
+                            color:white;
+                            text-align: center;
+                            font-weight: 600;      
+                            margin: 3px;
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        }
+                        .down-ta{
+                            background: #fff04b;
+                            text-align: center;
+                            font-weight: 600;
+                            margin: 3px;
+                            border-radius:5px !important;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        }
+                    }
+                }
+                .coutdown-clock{
+                    margin: 5px 0;
+                    padding: 5px ;
+                   
+                }
+
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px){
+    .booking-pay {
+       display: flex !important;
+       flex-direction: column !important;
+    }
+}

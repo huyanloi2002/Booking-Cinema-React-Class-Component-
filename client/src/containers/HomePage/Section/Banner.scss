@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    display: block;
+}
+.content-banner{
+    height: 450px !important;
+    width: 100%;
+   
+    .mySwiper{
+        width: 100%;
+        // position: relative;
+        // height: 100%;
+        // margin: 0;
+        // padding: 0;
+        box-sizing: content-box;
+    .container-banners{
+        width: 100%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        .banners{
+            margin: auto;
+            padding: auto;
+		    z-index: 4;
+            width: auto;
+            height: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+  
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+  
+    /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+  
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        
+
+    }
+    }
+        .inner{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 85%;
+            z-index: 1;
+            padding: 30px;
+            color: #ffffff;
+            line-height: 100%;
+            overflow-wrap: break-word;
+            width: 50%;
+            text-align: left;
+            .name-film{
+                margin-bottom: 0;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: -2px;
+            }
+            blockquote{
+                padding: 10px 20px;
+                margin: 0 0 20px;
+                font-size: 15.5px;
+                border-left: 5px solid #eee;
+            }
+            .title-booking{
+                font-weight: 900;
+                font-size: 35px;
+                cursor: pointer;
+               &:hover{
+                   text-decoration: underline;
+               }
+                span{
+                    color: #fdcc00;
+                    a{
+                        color: #fdcc00;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+}
+}}
+
+@media only screen and (max-width: 991px){
+    .banners {
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        width: auto !important;
+        height: 450px !important;
+        
+    }
+    .inner{
+        width: 100% !important;
+    }
+}

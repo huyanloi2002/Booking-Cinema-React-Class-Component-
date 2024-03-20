@@ -1,0 +1,295 @@
+.system-container {
+    background-image: url('../../../assets/background-admin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.film-redux-container {
+    background-size: cover;
+    background-position: center;
+
+    .film-redux-body {
+        display: flex;
+        .container {
+            .row {     
+                .container-film {
+                    // background: rgba(0, 0, 0, 0.6);
+                    padding: 20px;
+                    border-radius: 10px;
+                    height: max-content;
+                    .btn-film{
+                        background: #560e6f;
+                        border: 1px solid black;
+                        outline: none;
+                        border-radius: 10px;
+                        &:hover{
+                            opacity: 0.7;
+                            transition: all 0.5s;
+                        }
+                    }
+                }
+                .title-content {
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: white;
+                    text-align: center;
+                    text-transform: uppercase;
+                    text-shadow: 5px 2px 4px purple;
+
+                }
+
+                .booking-form {
+                    background: rgba(0, 0, 0, 0.6);
+                    padding: 20px;
+                    border-radius: 10px;
+                    .form-group-select{
+                        display: flex;
+                        margin-bottom: 30px;
+                        gap: 10px;
+                        .genre{
+                            .form-label-select {
+                                display: block;
+                                margin-left: 20px;
+                                margin-bottom: 5px;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                line-height: 24px;
+                                height: 15px;
+                                font-size: 12px;
+                                color: #fff;
+                                
+                            }
+                            .form-control-select {
+                                background-color: #fff;
+                                height: 50px;
+                                width: 120px;
+                                color: #191a1e;
+                                border: none;
+                                font-size: 16px;
+                                font-weight: 400;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                                border-radius: 40px;
+                                padding: 0 25px;
+                                width: 100%;
+                            }
+                        }
+                        .show{
+                            .form-label-select {
+                                display: block;
+                                margin-left: 20px;
+                                margin-bottom: 5px;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                line-height: 24px;
+                                height: 15px;
+                                font-size: 12px;
+                                color: #fff;
+    
+                            }
+                            .form-control-select {
+                                background-color: #fff;
+                                height: 50px;
+                                width: 150px;
+                                color: #191a1e;
+                                border: none;
+                                outline: none;
+                                font-size: 16px;
+                                font-weight: 400;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                                border-radius: 40px;
+                                padding: 0 25px;
+                                width: 100%;
+                            }
+    
+                        }
+                    }
+
+                    .form-group {
+                        position: relative;
+                        margin-bottom: 18px;
+                        .form-label {
+                            display: block;
+                            margin-left: 20px;
+                            margin-bottom: 5px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            line-height: 24px;
+                            height: 15px;
+                            font-size: 12px;
+                            color: #fff;
+
+                        }
+                       
+                        .preview-img-container {
+                            display: flex;
+                            gap: 10px;
+                            cursor: pointer;
+
+                            .label-upload {
+                                background: #ddd;
+                                border-radius: 40px;
+                                width: 80px;
+                                text-align: center;
+                                padding-top: 12px;
+                                &:hover {
+                                    opacity: 0.9;
+                                }
+                            }
+
+                            .preview-img {
+                                height: 50px;
+                                width: 20%;
+                                padding-left: 10px;
+                                border: 1px solid white;
+                                border-radius: 10px;
+                                background: center center no-repeat;
+                                background-size: contain;
+                            }
+                        }
+
+
+                        .form-control {
+                            background-color: #fff;
+                            height: 50px;
+                            color: #191a1e;
+                            border: none;
+                            font-size: 16px;
+                            font-weight: 400;
+                            -webkit-box-shadow: none;
+                            box-shadow: none;
+                            border-radius: 40px;
+                            padding: 0 25px;
+                        }
+                    }
+                    .form-group-infor{
+                        margin-bottom: 30px;
+                        gap: 10px;
+                        .form-label {
+                            display: block;
+                            margin-left: 20px;
+                            margin-bottom: 5px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            line-height: 24px;
+                            height: 15px;
+                            font-size: 12px;
+                            color: #fff;
+                            
+                        }
+                        .form-control {
+                            background-color: #fff;
+                            height: 50px;
+                            width: 120px;
+                            color: #191a1e;
+                            border: none;
+                            font-size: 16px;
+                            font-weight: 400;
+                            -webkit-box-shadow: none;
+                            box-shadow: none;
+                            border-radius: 40px;
+                            padding: 0 25px;
+                            width: 100%;
+                        }
+                    }
+                    .form-btn {
+                        margin-top: 27px;
+
+                        // float: right;
+
+
+                        .btn-save {
+                            color: #fff;
+                            background-color: #f23e3e;
+                            font-weight: 400;
+                            height: 50px;
+                            font-size: 14px;
+                            border: none;
+                            width: 100%;
+                            border-radius: 40px;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            text-align: center;
+
+                            &:hover {
+                                opacity: 0.9;
+                            }
+
+                            .title-save {
+                                padding: 13px;
+                            }
+                        }
+
+                    }
+
+                    .btn-edit {
+                        color: #fff;
+                        background-color: green;
+                        font-weight: 400;
+                        height: 50px;
+                        font-size: 14px;
+                        border: none;
+                        width: 100%;
+                        border-radius: 40px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        text-align: center;
+
+                        &:hover {
+                            opacity: 0.9;
+                        }
+
+                        .title-save {
+                            padding: 13px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.fresh-table {
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+
+    .table {
+        thead {
+            padding: 60px;
+        }
+
+        tbody {
+            background-color: #ddd;
+
+            tr {
+
+                .btn-action {
+
+                    background-color: yellowgreen;
+
+                    button {
+                        border: none;
+                        outline: none;
+                        background: transparent;
+
+                    }
+
+                    .btn-edit {
+                        color: green;
+                    }
+
+                    .btn-delete {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}

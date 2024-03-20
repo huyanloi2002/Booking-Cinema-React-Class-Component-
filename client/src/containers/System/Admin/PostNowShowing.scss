@@ -1,0 +1,91 @@
+.container-post {
+    background: rgba(0, 0, 0, 0.6);
+padding: 20px;
+border-radius: 10px;
+height: max-content;
+}
+.film-redux-container {
+    font-family: 'Quicksand';
+
+
+    .film-redux-body {
+        &.film-form {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+
+            .container {
+                .row {
+                    .container-post {
+                        .more-infor {
+                            // display: flex;
+                            // gap: 15px;
+                            .title-name {
+                                color: white;
+                            }
+                            .content-right {
+                                width: 60%;
+                            }
+                            .content-left {
+                                width: 40%;
+                            }
+                        }
+
+                        .form-btn {
+                            margin-top: 27px;
+                            float: right;
+
+                            .create-btn {
+                                color: #fff;
+                                background-color: #f23e3e;
+                                font-weight: 400;
+                                height: 50px;
+                                font-size: 12px;
+                                border: none;
+                                width: 100%;
+                                border-radius: 40px;
+                                text-transform: uppercase;
+                                cursor: pointer;
+                                text-align: center;
+
+                                &:hover {
+                                    opacity: 0.9;
+                                }
+
+                                .title-save {
+                                    padding: 13px;
+                                }
+                            }
+                            .edit-btn {
+                                color: #fff;
+                                background-color: green;
+                                font-weight: 400;
+                                height: 50px;
+                                font-size: 12px;
+                                border: none;
+                                width: 100%;
+                                border-radius: 40px;
+                                text-transform: uppercase;
+                                cursor: pointer;
+                                text-align: center;
+
+                                &:hover {
+                                    opacity: 0.9;
+                                }
+
+                                .title-save {
+                                    padding: 13px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

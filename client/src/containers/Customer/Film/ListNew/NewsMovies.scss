@@ -1,0 +1,449 @@
+.news-container{
+    // background-color: #ab73bf;
+    .news-content{
+        .switch-pages{
+            height: 80px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            will-change: transform;
+            position: sticky;
+            position: -webkit-sticky;
+            top:56px;
+            background: white;
+            z-index: 1;
+            .switch-pages-content{
+                margin: 10px 60px;
+               .title-news{
+                    height: 40px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    &:hover{
+                        span{
+                        color: yellow;
+                        }
+                    }
+                    span{
+                    padding: 10px;
+                    color: black;
+                    font-size: 30px;
+                    font-weight: 600;
+                    }
+               }
+            }
+        }
+        .list-news-movies{
+            margin: 10px 10px;
+            .list-news-container{
+                display: flex;
+                .list-news{
+                    width: 70%;
+                    .list-news-content{
+                        display: flex;
+                        margin: 10px 5px;
+                        // height: 250px
+                        // border: 1px solid black;
+                        border-radius:10px ;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        padding: 10px 0;
+                        .left{
+                            width: 45%;
+                            z-index: -2;
+                            margin: 0 10px;
+                            .content-left{  
+                                .image-movies-news{
+                                   height: 220px;
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;  
+                                   border-radius: 5px; 
+                                   border:2px solid #560e6f;
+                                }
+                            }
+                           
+                        }
+                        .right{
+                            width: 55%;
+                            margin: 0 10px;
+                            .content-right{
+                                height: 100%;
+                                .up{
+                                    // height:20%;
+                                    display: flex;
+                                    align-items: center;
+                                    span{
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                    }
+                                }
+                                .middle{
+                                    // height: 50%;
+                                   .author{
+                                       display: flex;
+                                       align-items: center;
+                                       padding-bottom: 20px;
+                                    .img-author{
+                                       height: 15px;
+                                       width: 15px;
+                                       border: 1px solid black;
+                                       border-radius: 50%;
+                                    }
+                                    .name-author-time{
+                                       margin: 0 5px;
+                                       span{
+                                           font-size: 13px;
+                                       }
+                                    }
+                                   }
+                                   .main-news{
+                                        height: 50px;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                       p{
+                                           margin: 0 !important;
+                                         
+                                       }
+                                   }
+                                }
+                                .down{
+                                    // height: 30%;
+                                    display: flex;
+                                    // justify-content:flex-start;
+                                    align-items: center;
+                                    padding: 10px 10px;
+                                    .btn-booking{
+                                        height: 30px;
+                                        border: none;
+                                        outline: none;
+                                        cursor: pointer;
+                                        border-radius: 5px;
+                                        background: #fff04b;
+                                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                        &:hover{
+                                            transition: 0.3s;
+                                            background: black;
+                                            span{
+                                                color: white;
+                                            }
+                                        }
+                                        span{
+                                            padding: 10px;
+                                            color: black;
+                                            font-weight: 600;
+                                        }
+                                    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .list-now{
+                    width: 30%;
+                    .list-now-contents{
+                        margin: 10px;
+                        position: sticky;
+                        position: -webkit-sticky;
+                        top:150px;
+                        height:490px;
+                        // overflow-x:hidden;
+                        // overflow-y:scroll;
+                        border-radius:10px ;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        .title-now{
+                            // margin: 10px;
+                            position: sticky;
+                            position: -webkit-sticky;
+                            z-index:0;
+                            top:0;
+                            background: white;
+                            .title-content{
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                margin:0 20px;        
+                                // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                // border-radius: 5px;
+                                span{
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                                        
+                                }
+                                i{
+                                    &:hover{
+                                        color: yellow;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                            .list-now-content{
+                                display: flex;
+                                margin: 10px 10px;
+                                padding: 10px 10px;
+                                z-index:-9999;
+                                border-radius:5px;
+                                .left{
+                                    width: 40%;
+                                    // z-index:-2;
+                                    .content-left{
+                                        .image-movies-now{
+                                            height: 150px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            border:2px solid #560e6f;
+                                        }
+                                    }
+                                    
+                                }
+                                .right{
+                                    width: 60%;
+                                    // z-index:-2;
+                                    padding: 0 5px;
+                                    .content-right{
+                                        height: 100%;
+                                        .up{
+                                            // height:20%;
+                                            display: flex;
+                                            align-items: center;
+                                            span{
+                                                font-size: 9px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .middle{
+                                            // height: 50%;
+                                            ul{
+                                                margin: 0;
+                                                padding: 2px 5px;
+                                                li{
+                                                    line-height: 1;
+                                                    list-style: none;
+                                                    span{
+                                                        font-size: 10px;
+                                                        
+                                                    }
+                                                }
+                                            }
+                                           
+                                        }
+                                        .down{
+                                            // height: 30%;
+                                            display: flex;
+                                            // justify-content:flex-start;
+                                            align-items: center;
+                                            padding: 5px 5px;
+                                            .btn-booking{
+                                                height: 20px;
+                                                border: none;
+                                                outline: none;
+                                                cursor: pointer;
+                                                border-radius: 5px;
+                                                background: #fff04b;
+                                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                                &:hover{
+                                                    transition: 0.3s;
+                                                    background: black;
+                                                    span{
+                                                        color: white;
+                                                    }
+                                                }
+                                                span{
+                                                    padding: 5px;
+                                                    color: black;
+                                                    font-weight: 600;
+                                                    font-size: 10px;
+                                                }
+                                            
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .last-background{
+                            background: white;
+                            position: sticky;
+                            position: -webkit-sticky;
+                            z-index:0;
+                            bottom: 0;
+                            align-self: flex-end;
+                            height: 30px;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                        }
+                      
+                    }
+                }
+            }
+        }
+    }
+
+@media only screen and (max-width: 991px){   
+        .news-container{
+            .news-content{
+               
+                .list-news-movies{
+                    .list-news-container{
+                        display: flex;
+                        flex-direction: column !important;
+                        .list-news{
+                            width:100% !important;
+                            .list-news-content{
+                                .left{
+                                    width: 45% !important;
+                                    .content-left{  
+                                        .image-movies-news{
+                                            height: 250px !important;                         
+                                        }
+                                    }
+                                   
+                                }
+                                .right{
+                                    width: 55% !important;
+                                    margin: 0 10px;
+                                    .content-right{
+                                        height: 100%;
+                                        .up{
+                                            // height:20%;
+                                            display: flex;
+                                            align-items: center;
+                                            span{
+                                                font-size: 13px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .middle{
+                                            .author{
+                                            
+                                                padding-bottom: 5px;
+                                            }
+                                           .main-news{
+                                                height: 60px;
+                                                p{
+                                                    margin: 0 !important;
+                                                    font-size: 13px;
+                                                }
+                                           }
+                                        }
+                                       
+                                    }
+                                }
+                            }
+                           
+                        }
+                        .list-now{
+                            width:100% !important;
+                            .list-now-contents{
+                                .list-now-content{
+                                    .left{
+                                        
+                                        .content-left{
+                                            .image-movies-now{
+                                                height: 170px !important;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+    @media only screen and (max-width: 360px){  
+    
+        .news-container{
+            .news-content{
+                .switch-pages{
+                    .switch-pages-content{
+                        margin: 10px 30px !important;
+                       .title-coming{
+                            span{
+                            font-size: 25px !important;
+                            }
+                       }
+                    }
+                   
+                }
+                .list-news-movies{
+                    .list-news-container{
+                        display: flex;
+                        flex-direction: column !important;
+                        .list-news{
+                            width:100% !important;
+                            .list-news-content{
+                                .left{
+                                    width: 45% !important;
+                                    height: 200px;      
+                                    .content-left{  
+                                        .image-movies-news{
+                                            height: 196px !important;                        
+                                        }
+                                    }
+                                   
+                                }
+                                .right{
+                                    width: 55% !important;
+                                    margin: 0 10px;
+                                    .content-right{
+                                        height: 100%;
+                                        .up{
+                                            // height:20%;
+                                            display: flex;
+                                            align-items: center;
+                                            span{
+                                                font-size: 12px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .middle{
+                                            .author{
+                                            
+                                                padding-bottom: 5px;
+                                            }
+                                           .main-news{
+                                                height: 60px;
+                                                p{
+                                                    margin: 0 !important;
+                                                    font-size: 13px;
+                                                }
+                                           }
+                                        }
+                                       
+                                    }
+                                }
+                            }
+                           
+                        }
+                        .list-now{
+                            width:100% !important;
+                            .list-now-contents{
+                                .list-now-content{
+                                    .left{
+                                        .content-left{
+                                            .image-movies-now{
+                                                height: 160px !important;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+           
+        }
+     }

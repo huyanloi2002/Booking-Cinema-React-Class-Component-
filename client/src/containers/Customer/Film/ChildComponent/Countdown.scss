@@ -1,0 +1,35 @@
+.countdown-container{
+    .countdown-content{
+        height: 80px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background: #8e50a3;
+        border-radius: 5px;
+        gap :50px;
+        .title-content{
+           background-image: url('../../../../assets/COUNTDOWN-LOCK.png');
+           height: 100%;
+           width: 100px;
+            // box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+        .countdown{
+            width: 30%;
+            background: white;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                .time{
+                    span{
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+                }
+            
+        }
+    }
+}

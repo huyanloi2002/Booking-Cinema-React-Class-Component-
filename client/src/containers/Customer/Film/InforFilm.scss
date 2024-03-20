@@ -1,0 +1,192 @@
+
+.content-infor{
+    .title-main{
+        margin: 0 170px;
+        font-size: 35px;
+        font-weight: 500;
+        font-family: Verdana, Arial, sans-serif;
+    }
+    .booking-time{
+        display: flex;
+        padding: 10px 0;
+        min-height: 150px;
+        .content-left{
+            width: 60%;
+        }
+        .content-right{
+            width: 40%;
+            iframe{
+                border-radius: 10px;
+            }
+        }
+    }
+    .infor-film-container {
+        border-top: 2px solid black;
+        padding-top: 15px;
+        padding: 0 150px;
+        font-family: Verdana, Arial, sans-serif;
+        background-color: #560e6f;
+        background-image: url(https://www.movies-at.ie/wp-content/themes/movies-at/assets/img/bg-footer.png);
+        .intro-film {
+            display: flex;
+            .content-left {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                height: 250px;
+                width: 200px;
+                margin: 10px 20px;
+                border: 2px solid black;
+            }
+    
+            .content-right {
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                padding-left: 5px;
+                color: #ddd;
+                .up {
+                    font-size: 28px;
+                    font-weight: 700 !important;
+    
+                }
+    
+                .down {
+                    border-top: 1px solid #fff04b;
+                    // padding-top: 5px;
+                    padding: 15px 0;
+                    .titles{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    
+        .detail-infor-film {
+            padding: 10px 20px;
+            display: flex;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-top:1px solid #fff04b;
+    
+            .down-left{
+                padding-top: 5px;
+                width: 60%;
+                font-style: italic;
+                background: #ddd;
+                .summary{
+                    font-weight: bold;
+                    text-decoration: underline;
+                    
+                }
+            }
+            .down-right{
+                width: 40%;
+    
+            }
+        }
+    }
+}
+.switch-pages{
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    will-change: transform;
+    position: sticky;
+    position: -webkit-sticky;
+    top:56px;
+    background: white;
+    z-index: 1;
+    .switch-pages-content{
+        margin: 10px 60px;
+       .title-news{
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            &:hover{
+                span{
+                color: yellow;
+                }
+            }
+            span{
+            padding: 10px;
+            color: black;
+            font-size: 30px;
+            font-weight: 600;
+            }
+       }
+    }
+}
+@media only screen and (max-width: 991px){
+    .switch-pages{
+        .switch-pages-content{
+            margin: 10px 30px !important;
+           .title-coming{
+                span{
+                font-size: 25px !important;
+                }
+           }
+        }
+       
+    }
+    .content-infor{
+        .title-main{
+            font-size: 18px;
+            margin: 0px 10px;
+        }
+        .booking-time{
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 10px 0;
+            min-height: 150px;
+            justify-content: center !important;
+            .content-left{
+                width: 100% !important;
+            }
+            .content-right{
+                width: 100%;
+                padding:20px;
+            }
+        }
+        .infor-film-container {
+            padding: 0 !important;
+            .intro-film {
+                .content-left {
+                    height: 150px !important;
+                    width: 100px !important;
+                }     
+                .content-right {
+                    .up {
+                        font-size: 20px !important;
+                        font-weight: 700 !important;
+                    }       
+                    // .down {
+                     
+                    // }
+                }
+            }
+        
+            .detail-infor-film {  
+                display: flex !important;
+                flex-direction: column !important;  
+                justify-content: center !important; 
+                align-items: center !important;
+                .down-left{
+                    width: 100% !important;
+                    // .summary{
+                       
+                    // }
+                }
+                // .down-right{
+                
+                // }
+            }
+        }
+    }
+   
+}

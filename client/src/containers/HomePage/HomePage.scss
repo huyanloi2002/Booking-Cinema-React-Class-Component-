@@ -1,0 +1,229 @@
+*{
+    font-family: "Quicksand", sans-serif;
+    font-display: block;
+}
+.section-share {
+    &.section-film {
+        background: grey;
+        height: 540px;
+    }
+
+    &.section-cinema {
+        background: white;
+        height: 330px;
+    }
+
+    &.section-outstandingactor {
+        background: grey;
+        height: 330px;
+    }
+
+    &.section-filminformation {
+        background: white;
+        height: 330px;
+    }
+
+    &.section-about {
+        background: grey;
+        height: 510px !important;
+        border-top: 4px solid #f5f5f5;
+        border-bottom: 4px solid #f5f5f5;
+    }
+
+    .section-body {
+
+        .section-customize {
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+            }
+
+            // border: 1px solid green;
+            .bg-image {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                height: 180px;
+                margin: 0 10px;
+                transform-origin: 65% 75%;
+                transition: transform 1s, filter .5s ease-out;
+                transition: 1s ease;
+
+                &:hover {
+                    -webkit-transform: scale(0.9);
+                    -ms-transform: scale(0.9);
+                    transform: scale(0.9);
+                    transition: 0.5s ease;
+                }
+
+                &.section-film {
+
+                    height: 330px !important;
+                }
+
+                // &.section-cinema {
+                //     // background-image: url('../../assets/cinema/logo-cgv.jpg');
+                // }
+
+                &.section-outstandingactor {
+                    // background-image: url('../../assets/outstandingactor/robert-pattinson.jpeg');
+                    height: 120px;
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                // &.section-filminformation {
+                //     // background-image: url('../../assets/filminformation/one-piece-film-red.jpg');
+                // }
+
+            }
+
+            .title-film {
+                font-weight: bold;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+
+            .title-genre {
+                font-style: italic;
+                font-size: 14px;
+            }
+        }
+
+    }
+}
+
+.section-share {
+
+    .section-container {
+        height: inherit;
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 25px;
+
+            .title-section {
+                font-size: 30px;
+                font-weight: 600;
+                // text-shadow: 5px 2px 4px purple;
+            }
+
+            .btn-section {
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                cursor: pointer;
+                border-radius: 2px;
+                background: #ebebeb;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: white;
+                    background: black;
+                }
+            }
+        }
+
+    }
+}
+
+.section-outstandingactor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize {
+        padding: 3px;
+
+        .customize-border {
+            border: 1px solid red !important;
+            padding: 20px;
+        }
+    }
+
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: unset;
+    }
+}
+
+.section-about {
+    padding: 0 100px;
+
+    .section-about-header {
+
+
+
+        padding: 20px 10px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        display: flex;
+        gap: 15px;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+
+            p {
+                text-align: justify;
+                font-style: italic;
+                padding: 15px;
+            }
+        }
+    }
+}
+@media only screen and  (min-width: 1200px){
+    .nav-item>.nav-link{
+        padding: 5px 20px !important;
+        display: block !important;
+    }
+    
+}
+
+@media only screen and (max-width:992px){
+    .container-fluid{
+        background-color: black !important;
+    }
+    .nav-item > .nav-link{
+        color: white !important;
+        .content-banner{
+            .container{
+                .banner-con{
+                    .first-title{
+                        font-size: 30px !important;
+                    }
+                }
+            }
+        }
+    }}
+    @media only screen and  (min-width: 1200px){
+        .nav-item>.nav-link{
+            padding: 5px 20px !important;
+            display: block !important;
+        }
+        
+    }
+    
+    

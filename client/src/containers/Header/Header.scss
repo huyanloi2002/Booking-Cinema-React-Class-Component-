@@ -1,0 +1,116 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background: #560e6f;
+    color: $common-text-color;
+    height: 40px;
+    position: sticky !important;
+    top: 0px;
+
+    // .header-tabs-container {
+
+    // }
+
+
+    .language {
+        display: flex;
+
+        .welcome {
+            margin-right: 10px;
+            padding-top: 8px;
+        }
+
+        .dropdown {
+            display: flex;
+
+            .btn {
+                background: transparent;
+                border: none;
+                outline: none;
+                align-self: center;
+                padding-top: 3px;
+                margin-right: 10px;
+
+                &:hover {
+                    background-color: gray !important;
+                    color: black !important;
+                }
+
+                i {
+                    color: black;
+                }
+            }
+
+            .dropdown-menu {
+                min-width: 10px;
+                width: 47px;
+                padding-top: 10px;
+                inset: auto auto auto auto !important;
+                border: none;
+                border-radius: 10%;
+                background-color: #f5f5f5;
+                transform: translate(0px, 37px) !important;
+
+                .language-vi {
+                    cursor: pointer;
+                    opacity: 0.2;
+                    text-align: center;
+
+                    &.active {
+                        opacity: 1;
+
+                        span {
+                            color: white;
+                        }
+                    }
+
+                    &:hover {
+                        opacity: 1;
+
+                    }
+
+                }
+
+                .language-en {
+                    cursor: pointer;
+                    opacity: 0.2;
+                    text-align: center;
+
+                    &.active {
+                        opacity: 1;
+
+                        span {
+                            color: white;
+                        }
+                    }
+
+                    &:hover {
+                        opacity: 1;
+
+                    }
+                }
+            }
+        }
+
+        .btn-log {
+            color: black;
+            line-height: 40px;
+            height: 40px;
+            padding: 0 10px;
+            align-self: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: transparent !important;
+                color: white !important;
+            }
+
+            i {
+                font-size: $base-size + 1px;
+            }
+        }
+    }
+}

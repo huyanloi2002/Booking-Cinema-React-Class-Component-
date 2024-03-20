@@ -1,0 +1,405 @@
+
+.booking-seat{
+    .booking-seat-container{
+        padding: 0 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .content-seats{
+            width: 350px;
+            .all-seat{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                button{
+                    border-radius: 2px;
+                    outline: none;
+                    border: none;
+                    &:hover{
+                        background: white !important;
+                        border:1px solid black
+
+                    }
+                   
+                   
+                }
+                .seat-normal{
+                    text-align: center;
+                    .btn-seat-normal{
+                        margin:2px 2px;
+                        min-width: 30px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        background: greenyellow;
+                        span{
+                            margin: 2px 2px;
+                            font-size: 12px;
+                            font-weight: 600 ;
+                        }
+                        &.active{
+                            background: white !important;
+                            border:1px solid black
+                        }
+                        &:disabled {
+                            background: red;
+                            }
+        
+                    }
+                }
+                .seat-vip-one{
+                    min-height: 55px;
+                    text-align: center;
+                    .btn-seat-vip-one{
+                        margin:2px 2px;
+                        min-width: 30px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        background: gold;
+                        span{
+                            margin: 2px 2px;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                        &.active{
+                            background: white !important;
+                            border:1px solid black
+
+                        }
+                        &:disabled {
+                            background: red;
+                            }
+        
+                    }
+                }
+                .seat-double{
+                    .seat-double-content{
+                        min-height: 55px;
+                        text-align: center;
+                        width: 81%;
+                        .btn-seat-double{
+                            margin:2px 2px;
+                            min-width: 64px;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            background: palevioletred;
+                            span{
+                                margin: 2px 2px;
+                                font-size: 12px;
+                                font-weight: 600;
+                            }
+                            &.active{
+                                background: white !important;
+                                border:1px solid black
+
+                            }
+                            &:disabled {
+                                background: red;
+                                }
+            
+                        }
+                    }
+                }
+               
+                .seat-vip-two{
+                    min-height: 55px;
+                    text-align: center;
+                    width: 81%;
+                    .btn-seat-vip-two{
+                        margin:2px 2px;
+                        min-width: 30px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        background: gold;
+                        span{
+                            margin: 2px 2px;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                        &.active{
+                            background: white !important;
+                        }
+                        &:disabled {
+                            background: red;
+                            }
+        
+                    }
+                }
+            }
+        }
+       
+    }
+    .image-sreen{
+        margin: 10px 10px;
+        background-image: url('../../../../assets/bg-screen.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50px;
+    }
+    .note-seat{
+        .note-seat-content{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .up{
+                .note{
+                    display: flex;
+                    align-items: center;
+                    .note-normal{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 3px;
+                        margin: 5px;
+                        background-color: greenyellow;
+                    }
+                    .note-vip{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 3px;
+                        margin: 5px;
+                        background-color: gold;
+                    }
+                    span{
+                        margin: 0 10px;
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .middle{
+                .note{
+                    display: flex;
+                    align-items: center;
+                    .note-double{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 3px;
+                        margin: 5px;
+                        background-color: palevioletred;
+                    }
+                    .note-seated{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 3px;
+                        margin: 5px;
+                        background-color: red;
+                    }
+                    span{
+                        margin: 0 10px;
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .down{
+                .note{
+                    display: flex;
+                    align-items: center;
+                    .note-seating{
+                        height: 20px;
+                        width: 20px;
+                        border:1px solid black;
+                        border-radius: 3px;
+                        background-color: white;
+                    }
+                    span{
+                        margin: 0 10px;
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .note{
+                display: flex;
+                align-items: center;
+               
+               
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 414px){
+
+    .booking-seat-container{
+        width: 100%;
+        .content-seats{
+            width: 100%;
+            // width: 100%;
+            // display: flex !important;
+            // justify-content: center !important;
+            .all-seat{
+                .seat-normal{
+                    .btn-seat-normal{
+                        margin:1px 2px !important;
+                        min-width: 27px !important;       
+                    }
+                }
+                .seat-vip-one{
+                    .btn-seat-vip-one{
+                        margin:1px 2px !important;
+                        min-width: 27px !important;       
+                    }
+                }
+                .seat-double{
+                    .seat-double-content{
+                        .btn-seat-double{
+                            margin:1px 3px !important;
+                            min-width: 56px !important;       
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media only screen and (max-width: 393px){
+
+    .booking-seat-container{
+        width: 100%;
+        .content-seats{
+            width: 100%;
+            // width: 100%;
+            // display: flex !important;
+            // justify-content: center !important;
+            .all-seat{
+                .seat-normal{
+                    .btn-seat-normal{
+                        margin:1px 1px !important;
+                        min-width: 27px !important;    
+                        span{
+                            font-size: 10px !important;
+                            font-weight: 600;
+                        }   
+                    }
+                }
+                .seat-vip-one{
+                    .btn-seat-vip-one{
+                        margin:1px 1px !important;
+                        min-width: 27px !important;    
+                        span{
+                            font-size: 10px !important;
+                            font-weight: 600;
+                        }      
+                    }
+                }
+                .seat-double{
+                    .seat-double-content{
+                        .btn-seat-double{
+                            margin:1px 3px !important;
+                            min-width: 52px !important;   
+                            span{
+                                font-size: 10px !important;
+                                font-weight: 600;
+                            }       
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media only screen and (max-width: 360px){
+
+    .booking-seat-container{
+        width: 100%;
+        .content-seats{
+            width: 100%;
+            // width: 100%;
+            // display: flex !important;
+            // justify-content: center !important;
+            .all-seat{
+                .seat-normal{
+                    .btn-seat-normal{
+                        margin:1px 2px !important;
+                        min-width: 22px !important;  
+                        span{
+                            font-size: 8px !important;
+                            font-weight: 600;
+                        }        
+                    }
+                }
+                .seat-vip-one{
+                    .btn-seat-vip-one{
+                        margin:1px 2px !important;
+                        min-width: 22px !important;   
+                        span{
+                            font-size: 8px !important;
+                            font-weight: 600;
+                        }       
+                    }
+                }
+                .seat-double{
+                    .seat-double-content{
+                        .btn-seat-double{
+                            margin:1px 2px !important;
+                            min-width: 47px !important;    
+                            span{
+                                font-size: 8px !important;
+                                font-weight: 600;
+                            }      
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media only screen and (max-width: 280px){
+
+    .booking-seat-container{
+        width: 100%;
+        .content-seats{
+            width: 100% !important;
+            // width: 100%;
+            // display: flex !important;
+            // justify-content: center !important;
+            .all-seat{
+                .seat-normal{
+                    .btn-seat-normal{
+                        margin:1px 1px;
+                        min-width: 15px !important;
+                        span{
+                            margin: 1px 1px !important;
+                            font-size: 6px !important;
+                            font-weight: 600 ;
+                        }
+                    }
+                }
+                .seat-vip-one{
+                    .btn-seat-vip-one{
+                        margin:1px 1px;
+                        min-width: 15px !important;
+                        span{
+                            margin: 1px 1px !important;
+                            font-size: 6px !important;
+                            font-weight: 600 ;
+                        }  
+                    }
+                }
+                .seat-double{
+                    .seat-double-content{
+                        .btn-seat-double{
+                            margin:1px 1px;
+                            min-width: 34px !important;
+                            span{
+                                margin: 1px 1px !important;
+                                font-size: 6px !important;
+                                font-weight: 600 ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}

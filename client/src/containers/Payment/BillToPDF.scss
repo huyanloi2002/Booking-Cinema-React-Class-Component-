@@ -1,0 +1,127 @@
+$color_1: #fff;
+$color_2: #262626;
+$background-color_1: #F6F6F6;
+$background-color_2: #0d1033;
+$background-color_3: #fff;
+$background-color_4: #f2f2f2;
+
+
+h1,h2,h3,h4,h5,h6 ,p{
+	margin: 0;
+	padding: 0;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-6 {
+	width: 50%;
+	flex: 0 0 auto;
+}
+.logo {
+	width: 50%;
+}
+
+.container {
+	width: 100%;
+	margin: 5px auto;
+    .brand-section {
+        background-color: #560e6f;
+        padding: 10px 40px;
+        .text-white {
+            color: white;
+        }
+        .company-details {
+            float: right;
+            text-align: right;
+        }
+    }
+    .body-section {
+        padding: 16px;
+        border: 1px solid gray;
+        .button-content{
+            display: flex;
+            justify-content: space-between;
+            .btn-export{
+                border: none;
+                outline: none;
+                background: #560e6f;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                color:white
+            }
+            .btn-back{
+                border: none;
+                outline: none;
+                background: gray;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                color:black
+            }
+        }
+       
+        .heading {
+            font-size: 18px;
+            margin-bottom: 08px;
+            .text{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        .sub-heading {
+            color:black;
+            margin-bottom: 05px;
+        }
+        table {
+            background-color: #fff;
+            width: 100%;
+            border-collapse: collapse;
+            &.table-bordered {
+                box-shadow: 0px 0px 5px 0.5px gray;
+                td {
+                    border: 1px solid #dee2e6;
+                }
+                th {
+                    border: 1px solid #dee2e6;
+                }
+            }
+            thead {
+                tr {
+                    border: 1px solid #111;
+                    background-color: #f2f2f2;
+                }
+            }
+            td {
+                vertical-align: middle !important;
+                text-align: center;
+                padding-top: 08px;
+                padding-bottom: 08px;
+                .text-right {
+                    text-align: end;
+                }
+                .description{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .total{
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .grandtotal{
+                font-weight: 600;
+                font-size: 20px;
+            }
+            th {
+                padding-top: 08px;
+                padding-bottom: 08px;
+            }
+            
+        }
+    }
+}
+
+

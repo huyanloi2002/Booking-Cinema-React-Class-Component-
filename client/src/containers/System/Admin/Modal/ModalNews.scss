@@ -1,0 +1,149 @@
+.fresh-table {
+    .table {
+        thead {
+            th {
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-left: 1px solid black;
+                border-right: 1px solid black;
+               
+            align-content: center;
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    border-top: 1px solid black;
+                    border-bottom: 1px solid black;
+                    border-left: 1px solid black;
+                    border-right: 1px solid black;
+                    height:100px;
+                }
+
+                .img-post-author {
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                    margin: 0 10px;
+                    width: 100px;
+
+                }
+                .img-post-news {
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                    height: 80px;
+                    margin: 0 10px;
+                    width: 150px;
+
+                }
+
+                .btn-action {
+
+                    .btn-save {
+                        color: #fff;
+                        background-color: #f23e3e;
+                        font-weight: 400;
+                        height: 50px;
+                        font-size: 14px;
+                        border: none;
+                        width: 100%;
+                        border-radius: 40px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        text-align: center;
+
+                        &:hover {
+                            opacity: 0.9;
+                        }
+
+                        .title-save {
+                            padding: 13px;
+                        }
+                    }
+
+                    .btn-edit {
+                        color: green;
+                        font-weight: 400;
+                        height: 50px;
+                        font-size: 14px;
+                        border: none;
+                        width: 100%;
+                        border-radius: 40px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        text-align: center;
+
+                        &:hover {
+                            opacity: 0.9;
+                        }
+
+                        .title-save {
+                            padding: 13px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+        }
+    }
+}
+.modal-news-container {
+    position: sticky;
+    top: 0;
+
+    .modal-content {
+        .modal-header {
+            .modal-title {
+                text-transform: uppercase;
+                color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            background: #560e6f;
+           
+
+            button {
+                background-color: transparent !important;
+                color: white;
+                border: none;
+                font-size: 27px;
+
+                &:hover {
+                    background-color: transparent !important;
+                    color: black !important;
+                }
+            }
+        }
+    }
+
+    .modal-user-body {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        .input-container {
+            width: 49%;
+            display: flex;
+            flex-direction: column;
+
+            &.max-width-input {
+                width: 100%;
+            }
+
+            input {
+                border-radius: 3px;
+                border: 1px solid gray;
+                outline: none;
+                height: 30px;
+                padding: 0 10px;
+            }
+        }
+    }
+}

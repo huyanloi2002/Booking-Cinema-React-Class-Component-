@@ -1,0 +1,32 @@
+/*
+ * General styles
+ */
+body,
+html {
+  background-image: "#fff";
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Quicksand';
+  font-size: $base-size - 2px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-container {
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+    // font-weight: 1500;
+    font-size: $base-size + 10px;
+    margin-top: 15px;
+    color: yellow;
+    display: block;
+  }
+
+  .content {
+    margin: 15px 30px;
+    box-shadow: 2px 2px 4px 0 $box-shadow-color;
+    -webkit-box-shadow: 2px 2px 4px 0 $box-shadow-color;
+  }
+}

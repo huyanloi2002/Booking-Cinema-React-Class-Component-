@@ -1,0 +1,525 @@
+
+.container-footer{
+    margin-top: 0;
+    .content-footer{
+        clear: both;
+        width: 100%;
+        padding-top: 30px;
+        .footer-brand-slide{
+            
+            .list-cinema{
+                ul{
+          
+                    display: flex;
+                    list-style: none;
+                    justify-content: center;
+                    align-items: center;
+                    li{
+                        width: 8%;
+                    }
+                }
+            }
+        }
+        .footer-policy{
+            padding-top: 10px;
+            .content-policy{
+               
+                // display: flex;
+                // justify-content: center;
+                // gap: 80px;
+                ul{
+                    list-style: none;
+                    padding-left:0 !important;
+                    li{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+      
+    }
+}
+@media only screen and (min-width: 771px){   
+    .container-footer{
+    width: 100% !important;
+    .content-footer{
+       width: 100% !important;
+    .footer-brand-slide {
+        border-bottom: 2px solid #222 !important;
+        border-top: 2px solid #222 !important;
+        width: 100% !important;
+        height: 50px !important;
+        .list-cinema{
+            ul{
+                margin-top: 5px !important;
+                li{
+                    a{
+                        background-image: url("https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/brand-type-film-footer_ver2.png");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        display: block;
+                        height: 40px;
+                        text-indent: -99999px;
+                        white-space: nowrap;
+                        &.dx{
+                            background-position: -8px 0;
+                            width: 60px;
+                        }
+                        &.imax{
+                            background-position: -512px -2px;
+                            width: 70px;
+                        }
+                        &.starium{
+                            background-position: -685px -2px;
+                            width: 74px;
+                        }
+                        &.gold-class{
+                            background-position: -590px -2px;
+                            width: 99px;
+                        }
+                        &.lamour{
+                            background-position: -768px 0px;
+                            width: 100px;
+                        }
+                        &.sweet{
+                            background-position: -413px -2px;
+                            width: 80px;
+                        }
+                        &.dolby-atmos{
+                            background-position: -74px 0;
+                            width: 90px;
+                        }
+                        &.premium-cinema{
+                            background-position: -880px -2px;
+                            width: 61px;
+                        }
+                        &.screenx{
+                            background-position: -940px -2px;
+                            width: 99px;
+                        }
+                        &.cine-foret{
+                            background-position: -170px -2px;
+                            width: 110px;
+                        }
+                        &.cine-livingroom{
+                            background-position: -274px -2px;
+                            width: 135px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-policy {
+        width: 100% !important;
+        // padding: 10px 0px!important;
+        border-bottom: 2px solid #222 !important;
+        overflow: hidden !important;
+        display: block !important;
+        .content-policy{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            .booking-cine-mov{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 22% !important;
+                height: 100%;
+                h3{
+                    color: #636363 !important;
+                    font-size: 14px !important;
+                    font-weight: bold !important;
+                }
+                ul{
+                    li{
+                        width: 100% !important;
+                        a{
+                            color: #636363 !important;
+                            font-size: 14px !important;
+                            line-height: 22px !important;
+                        }
+                    }
+                }
+            
+            }
+            .policy{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 22% !important;
+                h3{
+                    color: #636363 !important;
+                    font-size: 14px !important;
+                    font-weight: bold !important;
+                }
+                ul{
+                    
+                    li{
+                        width: 100% !important;
+                        a{
+                            color: #636363 !important;
+                            font-size: 14px !important;
+                            line-height: 22px !important;
+                        }
+                    }
+                }
+            }
+            .follow-us{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 22% !important;
+                h3{
+                    color: #636363 !important;
+                    font-size: 14px !important;
+                    font-weight: bold !important;
+                }
+                ul{
+                   
+                    display: flex !important;
+                    li{
+                        
+                        a{
+                            background: url('https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-social-footer-40.png') repeat scroll 0 0 rgba(0, 0, 0, 0);
+                            display: block;
+                            height: 39px;
+                            text-indent: -9999px;
+                            width: 39px;
+                            &.fb{
+                                background-position: -9px -3px;
+                            }
+                            &.ytb{
+                                background-position: -54px -3px;
+                            }
+                            &.ins{
+                                background-position: -98px -3px;
+                            }
+                            &.zalo{
+                                background-position: -191px -3px;
+                            }
+                        }
+                        }
+                    }
+                .permision{
+                   h2{
+                       font-size: 20px;
+                   }
+                }
+                }
+            .customer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                    width: 28% !important;
+                    h3{
+                        color: #636363 !important;
+                        font-size: 14px !important;
+                        font-weight: bold !important;
+                    }
+                    ul{
+                        li{
+                            
+                            width: 100% !important;
+                            a{
+                                color: #636363 !important;
+                                font-size: 14px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                    }
+             }
+            }
+        }
+        
+    }
+    }
+    .list-cinema li >  .list-cinema a {
+    background-position: -8px 0 !important;
+    width: 60px !important;
+}
+}
+@media only screen and (max-width: 770px){
+    
+    .container-footer{
+        background: none !important;
+        padding: 0px 7px !important;
+        .content-footer{
+           
+        .footer-brand-slide {
+          
+            .list-cinema{
+               
+                ul{
+                    width: 100% !important;
+                    text-align: center !important;
+                    li{
+                        
+                        a{
+                           
+                        }
+                    }
+                }
+            }
+        }
+        .footer-policy {
+            width: 100% !important;
+            padding: 10px !important;
+            border-bottom: 2px solid #222 !important;
+            overflow: hidden !important;
+            display: block !important;
+            .content-policy{
+                width: 100% !important;
+                margin: 0px auto !important;
+                .booking-cine-mov{
+                    float: left !important;
+                    width: 33% !important;
+                    h3{
+                        color: #636363 !important;
+                        font-size: 14px !important;
+                        font-weight: bold !important;
+                    
+                    }
+                    ul{
+                       
+                        li{
+                            float: left !important;
+                            width: 100% !important;
+                            a{
+                                color: #636363 !important;
+                                font-size: 14px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                    }
+                
+                }
+                .policy{
+                  
+                    float: left !important;
+                    width: 33% !important;
+                    h3{
+                        color: #636363 !important;
+                        font-size: 14px !important;
+                        font-weight: bold !important;
+                    
+                    }
+                    ul{
+                        float: left !important;
+                        width: 100% !important;
+                        li{
+                            float: left !important;
+                            width: 100% !important;
+                            a{
+                                color: #636363 !important;
+                                font-size: 14px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                    }
+                
+                }
+                .follow-us{
+                   
+                    float: left !important;
+                    width: 33% !important;
+                    h3{
+                        color: #636363 !important;
+                        font-size: 14px !important;
+                        font-weight: bold !important;
+                    
+                    }
+                    ul{
+                        float: left !important;
+                        width: 100% !important;
+                        display: flex !important;
+                        li{
+                            
+                            a{
+                                background: url('https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-social-footer-40.png') repeat scroll 0 0 rgba(0, 0, 0, 0);
+                            display: block;
+                            height: 34px;
+                            text-indent: -9999px;
+                            width: 34px;
+                            color: #636363;
+                            font-size: 14px;
+                            line-height: 22px;
+                                &.fb{
+                                    background-position: -9px -3px;
+                                }
+                                &.ytb{
+                                    background-position: -54px -3px;
+                                }
+                                &.ins{
+                                    background-position: -98px -3px;
+                                }
+                                &.zalo{
+                                    background-position: -191px -3px;
+                                }
+                            }
+                        }
+                    }
+                
+                    }
+                    .customer{
+                        
+                        float: left !important;
+                        width: 100%  !important;
+                        margin-top: 20px  !important;
+                        text-align: center  !important;
+                        background: #ececf1  !important;
+                        padding: 10px 0px  !important;
+                    h3{
+                        color: #636363 !important;
+                        font-size: 14px !important;
+                        font-weight: bold !important;
+                    
+                    }
+                    ul{
+                        float: left !important;
+                        width: 100% !important;
+                        li{
+                            float: left !important;
+                            width: 100% !important;
+                            a{
+                                color: #636363 !important;
+                                font-size: 14px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                    }
+                
+                    }
+                }
+            }
+        }   
+        
+    }
+    .list-cinema li>a{
+        background-position: -410px 0 !important;
+        width: 61px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .container-footer{
+        background: none !important;
+        padding: 0px 0px !important;
+       
+        .content-footer{
+            padding-top: 5px !important;
+        .footer-brand-slide {
+            display: none !important;
+        }
+        .footer-policy {
+            padding: 0px !important;
+            border-bottom: none !important;
+            .content-policy{
+                
+                .booking-cine-mov{
+                    float: left !important;
+                    width: 100% !important;
+                    min-height: 0px !important;
+                    
+                    h3{
+                        display: none !important;
+                    }
+                    ul{
+                        width: 100% !important;
+                        li{
+                            display: block !important;
+                            border-bottom: 1px solid #e1e1e1 !important;
+                            padding: 8px 0px !important;
+                            width: 100% !important;
+                            a{
+                                padding: 8px 0 8px 5px !important;
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                
+                }
+                .policy{
+                    // float: left !important;
+                    width: 100% !important;
+                    min-height: 0px !important;
+                    h3{
+                        display: none !important;
+                    }
+                    ul{
+                        width: 100% !important;
+                        li{
+                            display: block !important;
+                            border-bottom: 1px solid #e1e1e1 !important;
+                            padding: 8px 0px !important;
+                            width: 100% !important;
+                            a{
+                                padding: 8px 0 8px 5px !important;
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                }
+                .follow-us{
+                        // float: left !important;
+                    width: 100% !important;
+                    min-height: 0px !important;
+                    h3{
+                        display: none;
+                    }
+                    ul{
+                        width: 100% !important;
+                        justify-content: center !important;
+                        li{
+                            
+                            a{
+                                width: 40px;
+                                height: 40px;
+                                &.fb{
+                                    background-position: -9px -3px;
+                                }
+                                &.ytb{
+                                    background-position: -54px -3px;
+                                }
+                                &.ins{
+                                    background-position: -98px -3px;
+                                }
+                                &.zalo{
+                                    background-position: -191px -3px;
+                                }
+                            }
+                            }
+                        }
+                    .permision{
+                       h2{
+                        text-align: center !important;
+                       }
+                    }
+                    }
+                    .customer{
+                        
+                        h3{
+                           
+                        }
+                        ul{
+                          
+                            li{
+                              
+                                a{
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+

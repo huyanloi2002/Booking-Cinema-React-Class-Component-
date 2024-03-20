@@ -1,0 +1,67 @@
+.booking-buy-combo-container{
+    .content-combo{
+        .all-combo{
+            display: flex;
+            .image-combo{
+                margin:10px;
+                min-width: 130px;
+                height: 150px;
+            }
+            .content-combo{
+                margin:10px 0;
+                min-width: 210px;
+                height: 150px;               
+                .name-combo{
+                    font-weight: 800;                   
+                    height: 15%;
+                }
+                .infor-combo{                    
+                    height: 50%;
+                    font-size: 12px;
+                }
+                .price-combo{                   
+                    height: 35%;
+                    .price-content{                       
+                        height: 50%;
+                        display: flex;
+                        gap:5px;
+                        .title-price{
+                            font-weight: 600;
+                        }
+                        // .price{
+
+                        // }
+                    }
+                    .cout{                       
+                        height: 50%;
+                        display: flex;
+                        justify-content: start;
+                        gap: 3px;
+                        .minus{                           
+                            padding: 5px;
+                            display: flex;
+                            align-items: center;
+                            background: red;
+                            font-size: 30px;                           
+                        }
+                        .quantity{                           
+                            min-width: 20%;
+                            border: 1px solid black;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .plus{                           
+                            padding: 5px;
+                            display: flex;
+                            align-items: center;
+                            background: greenyellow;
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

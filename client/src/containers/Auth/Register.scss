@@ -1,0 +1,74 @@
+.register-background {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    height: 100vh;
+
+
+    .register-container {
+        width: 500px;
+        margin: 10px auto;
+        border-radius: 10px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: absolute;
+       
+        .register-content {
+            padding: 10px;
+
+            .text-register {
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+
+            .register-input {
+                margin: 7px 0;
+
+                .custom-input-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 5px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .btn-register {
+                width: 100%;
+                margin: 10px 0;
+                height: 35px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                color: white;
+                font-size: 16px;
+                background: rgb(131, 58, 180);
+                background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            }
+            .btn-login{
+                width: 100%;
+                margin: 10px 0;
+                height: 55px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                color: white;
+                font-size: 16px;
+                background: #560e6f;
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width: 991px){
+    .register-container {
+        width: 350px !important;
+    }
+}

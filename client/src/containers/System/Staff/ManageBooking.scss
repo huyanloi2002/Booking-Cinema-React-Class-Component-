@@ -1,0 +1,83 @@
+.plan-booking-container{
+    color:white;
+   text-align: center;
+    .p-b-title{
+        margin-top:15px;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .pick-seat-container{
+        display: flex;
+        justify-content: center;
+        .content-seat{
+            display: flex;
+            gap:3px;
+            flex-wrap: wrap;
+            width: 490px;
+            margin: 8px;
+            border: 1px solid silver;
+            padding: 8px;    
+            border-radius: 4px;
+            justify-content: center;
+            legend{
+                padding: 2px;
+                font-size: 16px;  
+                font-weight: 600;
+            }
+            button{
+                        min-width: 40px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        background: white;
+                        margin: 2px 2px;
+                        font-size: 12px;
+                        font-weight: 600;
+                &.btn-seat-booking{
+                    &.active{
+                        background: greenyellow;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    .select-film{
+        color: black !important;
+        font-weight: 600;
+    }
+    .btn-save-time{
+        margin-top:20px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .pick-seat-container {
+        padding-top: 10px !important;
+        .content-seat{
+            margin:0 !important;
+            padding :0 !important;
+            width: 100% !important;
+            button{
+                margin:1px 1px !important;
+                min-width: 37px !important;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                background: white;
+                font-size: 10px;
+                font-weight: 600;
+             &.btn-seat-booking{
+            &.active{
+                background: greenyellow;
+            }
+        }
+    }
+        }
+        
+    }
+   
+}
